@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E2E2E2;
+    background-repeat: no-repeat;
+}
+
+.outer-picture-container {
+    outline: 1px dashed red;
+
+    box-sizing: border-box;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.picture-container {
+    outline: 1px dashed black;
+
+    box-sizing: border-box;
+    width: 128vh;
+    height: 78.5vh;
+    padding: 90h, 0;
+    margin: 90vh, auto; /* nie dziala ¯\_(ツ)_/¯ */
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outer-picture-box {
+    outline: 1px dashed orange;
+
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+
+    background: #ABABAB no-repeat center center;
+    overflow: hidden;
+}
+
+.picture-box {
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.picture-box:hover {
+    width: 110%;
+    height: 110%;
+}
+
+/* https://www.pexels.com/ */
+.box1 {
+    background-image: url("content/photos/img1.jpg");
+}
+.box2 {
+    background-image: url("content/photos/img2.jpg");
+}
+.box3 {
+    background-image: url("content/photos/img3.jpg");
+}
+.box4 {
+    background-image: url("content/photos/img4.jpg");
+}
+.box5 {
+    background-image: url("content/photos/img5.jpg");
+}
+.box6 {
+    background-image: url("content/photos/img6.jpg");
+}
+.box7 {
+    background-image: url("content/photos/img7.jpg");
+}
+.box8 {
+    background-image: url("content/photos/img8.jpg");
+}
+.box9 {
+    background-image: url("content/photos/img9.jpg");
+}
